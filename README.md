@@ -2,8 +2,9 @@
 Export a dynamic folium map as image  |  حفظ الخريطة الديناميكية كصورة <br />
 Our website displays reports that must be either printed or saved as PDFs. 
 However, since Folium produces dynamic maps that do not render correctly in static formats,
-it is essential to capture a screenshot of the map and use this image as an alternative to printing or PDF generation.
+it is essential to capture a screenshot of the map and use this image as an alternative to printing or PDF generation. <br />
 The following steps detail the procedure to capture the folium map and save it in the same path as png:
+<br />
 <br />
 1-	Open Google Chrome and type chrome://settings/help in the address bar. You will see the current version of Google Chrome displayed on the screen. If your Chrome is not up to date, it will either start updating automatically or prompt you to update. If an update is available, follow the instructions to complete the update, then restart your browser to apply the changes. <br />
 2-	Go to https://developer.chrome.com/docs/chromedriver/downloads	, then click the link " Chrome for Testing availability dashboard "<br />
