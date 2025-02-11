@@ -1,0 +1,23 @@
+<div class="row" style="width: 100%;">
+                <!-- Interactive Heat Map (Normal View) -->
+                <div class="container interactive">
+                    {{ heatMap_riyadh | safe }} 
+                </div>
+                
+                <!-- Static Image Heat Map (Print Only) -->
+                <div class="container static">
+                    <img src="{{ url_for('static', filename='maps/heat_map.png') }}" alt="Static Heat Map">
+                </div>
+            </div>
+            
+            <div class="row" style="width: 100%;">
+                <!-- Interactive Cluster Map (Normal View) -->
+                <div class="container interactive">
+                    {{ clusterMap_riyadh | safe }} 
+                </div>
+                
+                <!-- Static Image Cluster Map (Print Only) -->
+                <div class="container static">
+                    <img src="{{ url_for('static', filename='maps/cluster_map.png') }}" alt="Static Cluster Map">
+                </div>
+            </div>
