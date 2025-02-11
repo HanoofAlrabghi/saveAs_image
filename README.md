@@ -11,8 +11,8 @@ The following steps detail the procedure to capture the folium map and save it i
 3-	Next, go to the Stable section, then find the Chromedriver version that matches your platform (Linux, macOS, or Windows 64-bit). Copy the download link from the table, paste it into your browser's address bar, and the file will download automatically. Once downloaded, move the chromedriver.exe file to your script folder.<br />
 4- You can find the Python script code here.<br />
 
-يعرض موقعنا الإلكتروني التقارير التي يجب طباعتها أو حفظها بتنسيق PDF.
-ومع ذلك، نظرًا لأن Folium ينتج خرائط ديناميكية لا يتم عرضها بشكل صحيح بتنسيقات ثابتة،
+قمت ببناء موقع الكتروني يقوم بعرض التقارير للجهة المختصة وقد يرغب المستخدم بطباعتها أو حفظها بتنسيق PDF.
+حيث يوجد في هذه التقارير خرائط لعرض الاحداثيات ولأن Folium ينتج خرائط ديناميكية لا يتم عرضها بشكل صحيح عند محاولة طباعتها،
 فمن الضروري التقاط لقطة شاشة للخريطة واستخدام هذه الصورة كبديل عند الطباعة أو إنشاء PDF. 
 توضح الخطوات التالية الإجراء لالتقاط خريطة Folium وحفظها في نفس مسار الكود البرمجي كصيغة png:
 <br/>
