@@ -1,0 +1,23 @@
+/* Set consistent map height */
+.container {
+    overflow: hidden;
+}
+
+/* Hide Static Image Maps by Default */
+.static {
+    display: none;
+}
+
+/* Ensure Interactive Maps are Visible in Normal View */
+.interactive {
+    display: block;
+}
+
+@media print {
+    .interactive {
+        display: none !important;
+    }
+    .static {
+        display: block !important;
+    }
+}
